@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content="Inholland, exam, tickets, price, travel"/>
+        <meta name="description" content="This page is the contact page"/>
+        <meta name="author" content="Hyunwoo Song"/>
+        
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+        </style>
+
+        <title> Contact </title>
+    </head>
+    
+    <body id="body-cont">
+        <section id=top-cont>
+            <section class = "header">
+                <figure id="logo">
+                    <img src = "img/logo.svg"
+                        title = "simple logo"
+                        alt = "It&apos;s the company logo"
+                    />
+                </figure>
+                <h1>
+                    Advanture
+                </h1>
+                <h2>
+                    Get out from your own comfort zone
+                </h2>
+            </section>
+            <section id="hamburger-menu-cont">
+                <button id="hamburger-btn">
+                    <img src="img/hamburgericon.png"
+                        title="hamburger"
+                        alt="It&apos;s the hamburger menu"
+                    />
+                </button>
+                <section id="hamburger-navigation">
+                    <a href="index.html">Home</a>
+                    <a href="bestdestinations.html">Destinations</a>
+                    <a href="tickets.html">Tickets</a>
+                </section>
+            </section>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "bestdestinations.html">
+                            Best Destinations
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tickets.html">
+                            Tickets
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <main id="main-cont">
+            <form id="contactform"
+                action = "vote.php"
+                method = "post">
+                <header></header>
+                <fieldset id=contactform-input>
+                    <legend>Leave us a message</legend>
+                    <label class="labels" for="name">Name:</label>
+                    <input class="inputs" id="name"  type="text" name="name"/>
+                    <label class="labels" for="email">Email:</label>
+                    <input class="inputs" id="email" type = "email" name="email"/>
+                    <label class="labels" for ="text">Message:</label>
+                    <input class="inputs" id="text"  type="text" name="message" required/>
+                    <input class="inputs" id="submit" type="submit">
+                </fieldset>
+                
+            
+            </form>
+            <aside id="aside-cont">
+                <figure id="product1-cont">
+                    <a href = "https://www.tui.nl/" target ="_blank">
+                        <img id="img-product1-cont"
+                            src = "img/zanzibar.jpg"
+                            title = "product1"
+                            alt = "It&apos;s a photo of the product1."
+                        />
+                    </a>
+                    <figcaption>Zanzibar &copy; tui.nl</figcaption>
+                </figure>
+                <figure id="product2-cont">
+                    <a href = "https://www.tui.nl/" target ="_blank">
+                        <img id="img-product2-cont"
+                            src = "img/japan.jpg"
+                            title = "product2"
+                            alt = "It&apos;s a photo of the product2."
+                        />
+                    </a>
+                    <figcaption>Japan &copy; tui.nl</figcaption>
+
+                </figure>
+                <figure id="product3-cont">
+                    <a href = "https://www.tui.nl/" target ="_blank">
+                        <img id="img-product3-cont"
+                            src = "img/singapore.jpg"
+                            title = "product3"
+                            alt = "It&apos;s a photo of the product3."
+                        />
+                    </a>
+                    <figcaption>Singapore &copy; tui.nl</figcaption>
+                </figure>
+            </aside>
+        </main>
+
+        <section class="bottom">
+            <footer>
+                &copy; 2021 Hyunwoo Song
+            </footer>
+            <p id="cookie">
+                Cookie statement
+            </p>
+        </section>
+    </body>
+</html>
